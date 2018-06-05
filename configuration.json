@@ -1,0 +1,57 @@
+{
+	"nodes":[
+		"leaf1", "leaf2", "leaf3",
+		"leaf5", "leaf6", "leaf7", "leaf8",
+		"spine1", "spine2", "spine3", "spine4"
+	],
+	"featureModel":"DataPlane",
+	"featureList": [
+		"active-routes-count",
+		"as",
+		"backup-routes-count",
+		"deleted-routes-count",
+		"paths-count",
+		"protocol-route-memory",
+		"routes-counts",
+		"global__established-neighbors-count-total",
+		"global__neighbors-count-total",
+		"global__nexthop-count",
+		"global__restart-count",
+		"performance-statistics__global__configuration-items-processed",
+		"performance-statistics__global__ipv4rib-server__rib-connection-up-count",
+		"performance-statistics__vrf__inbound-update-messages",
+		"vrf__neighbors-count",
+		"vrf__network-count",
+		"vrf__path-count",
+		"vrf__update-messages-received"
+	],
+	"detectionCriterion":"spatialDetection",
+	"dataset":{
+		"availableDataset": [
+			"bgpclear_first",
+			"bgpclear_second",
+			"portflap_first",
+			"bgpclear_apptraffic_2hourRun",
+			"bgpclear_no_traffic_2hourRun",
+			"bgpclearNewNet"
+		],
+		"list":[
+			"bgpclear_apptraffic_2hourRun"
+		],
+		"path": "Data/DatasetByNodes/"
+	},
+	"multicoreAnalysis":{
+		"ON": "NO",
+		"lambda": [0.01, 1.01, 0.01],
+		"beta": [0.01, 1.01, 0.01]
+	},
+	"denstreamParameters": {
+		"lambda": 0.15,
+		"epsilon": "auto",
+		"beta": 0.05,
+		"mu": "auto",
+		"Kmax": 5,
+		"tp": 30
+	},
+	"sampleSkip":39
+}

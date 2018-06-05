@@ -1,0 +1,13 @@
+Node,Host,Start,End,Event,Type
+spine3,None,1519069509,1519069809,clearBGP,single
+leaf2,None,1519070117,1519070417,clearBGP,single
+leaf8,None,1519070724,1519071024,clearBGP,single
+leaf6,None,1519071331,1519071631,clearBGP,single
+leaf5,None,1519071939,1519072239,clearBGP,single
+spine4,None,1519072546,1519072846,clearBGP,single
+leaf4,None,1519073153,1519073453,clearBGP,single
+leaf7,None,1519073761,1519074061,clearBGP,single
+leaf1,None,1519074368,1519074668,clearBGP,single
+spine2,None,1519074975,1519075275,clearBGP,single
+spine1,None,1519075583,1519075883,clearBGP,single
+leaf3,None,1519076191,1519076491,clearBGP,single

@@ -1,0 +1,5 @@
+Node,Host,Start,End,Event,Type
+spine2,None,1504286090,1504286390,portflap,single
+leaf3,None,1504286450,1504286760,portflap,single
+spine2,None,1504286868,1504287178,portflap,single
+leaf3,None,1504287230,1504287600,portflap,single
