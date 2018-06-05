@@ -29,18 +29,18 @@ Scripts used to reproduce our work on "Telemetry-based stream-learning of BGP an
  
  <pre>	"dataset":{
 		"availableDataset": [
-			"bgpclear_first",
-			"bgpclear_second",
-			"portflap_first",
-			"bgpclear_apptraffic_2hourRun",
-			"bgpclear_no_traffic_2hourRun",
-			"bgpclearNewNet"
+			"bgpclear_first" (dataset #2),
+			"bgpclear_second" (dataset #3),
+			"portflap_first" (dataset #4),
+			"bgpclear_apptraffic_2hourRun" (dataset #5),
+			"bgpclear_no_traffic_2hourRun" (dataset #6)
 		],
 		"list":[
 			"bgpclear_apptraffic_2hourRun"
 		],
 			"path": "Data/DatasetByNodes/"
 	}</pre>
+	
 
 - **multicoreAnalysis**: Used to perform the grid optimization. If you switch ON the multicoreAnalysis, the script is going to perform the algorithm for all the parameters in range( \lambda and \beta ) and save the results in a json. **important**: please use only after having a look at *main.py* script and after understanding what it will produce. This code uses the multiprocessors, please select the number of parallel processes you want to run.
 <pre>	"multicoreAnalysis":{
