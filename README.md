@@ -1,4 +1,4 @@
-Scripts used in "Telemetry-based stream-learning of BGP anomalies" paper, SIGCOMM'18/BigDama Workshop
+Scripts used to reproduce our work on "Telemetry-based stream-learning of BGP anomalies" 
 ======
 
 - Configuration file
